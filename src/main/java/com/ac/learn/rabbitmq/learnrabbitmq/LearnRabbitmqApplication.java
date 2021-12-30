@@ -13,10 +13,10 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class LearnRabbitmqApplication {
 
-	@Value("${queue.simple-text.name}")
+	@Value("${queue.text.name}")
 	private String textQueueName;
 
-	@Value("${queue.simple-sum.name}")
+	@Value("${queue.sum.name}")
 	private String sumQueueName;
 
 	@Bean
